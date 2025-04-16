@@ -17,7 +17,7 @@ import json
 from langchain.chains.combine_documents import create_stuff_documents_chain
 from langchain_text_splitters import RecursiveJsonSplitter
 
-#os.environ["OPENAI_API_KEY"] = "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"
+#os.environ["OPENAI_API_KEY"] = ""
 
 # petstore.json contains limited paths and not full json
 with open('petstore.json') as f:

@@ -41,7 +41,7 @@ def extract_between_backticks(text):
         start = end + 3
     return results
 
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = ""
 url = "https://catfact.ninja/docs/api-docs.json"
 response = urllib.request.urlopen(url)
 data_json = json.loads(response.read())
