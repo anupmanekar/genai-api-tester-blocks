@@ -17,7 +17,6 @@ import json
 from langchain.chains.combine_documents import create_stuff_documents_chain
 from langchain_text_splitters import RecursiveJsonSplitter
 
-os.environ["OPENAI_API_KEY"] = ""
 url = "https://petstore.swagger.io/v2/swagger.json"
 response = urllib.request.urlopen(url)
 data_json = json.loads(response.read())
